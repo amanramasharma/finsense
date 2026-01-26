@@ -1,0 +1,4 @@
+symbols: ["AAPL", "MSFT", "BLK", "NVDA", "JPM", "LNG", "HSBC", "SHEL", "BP", "AZN", "BATS.L"]
+start_date: "2025-01-01"  # Last year data
+freq: "1d"
+bucket: "finsense-dev"    # For S3 later
