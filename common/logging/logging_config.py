@@ -2,7 +2,8 @@ import logging
 import logging.config
 from common.config.settings import settings
 
-def setup_logging():
+
+def setup_logging() -> None:
     log_level = settings.log_level.upper()
     logging_config = {
         "version": 1,
@@ -36,3 +37,5 @@ def setup_logging():
             },
         },
     }
+
+    logging.config.dictConfig(logging_config)
