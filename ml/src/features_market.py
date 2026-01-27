@@ -26,7 +26,7 @@ def calculate_market_features():
     
     # Step 2: Calculate returns (1D, 3D, 5D)
     df['ret_1d'] = df.groupby('symbol')['close'].pct_change(1)
-    df['ret_3d'] = df.groupby('symbol')['close'].pct_change(3)  # ⭐ NEW: 3-day returns
+    df['ret_3d'] = df.groupby('symbol')['close'].pct_change(3)  
     df['ret_5d'] = df.groupby('symbol')['close'].pct_change(5)
     
     # Step 3: 20D Volatility (std dev of daily returns)
