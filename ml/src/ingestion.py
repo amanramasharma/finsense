@@ -2,6 +2,7 @@ import yaml
 import pandas as pd
 import yfinance as yf
 from pathlib import Path
+from common.config.paths import RAW_MARKET_DIR, RAW_METADATA_FILE
 from datetime import datetime
 from decimal import Decimal
 from loguru import logger
@@ -104,7 +105,7 @@ def ingest_metadata():
         df = pd.DataFrame(validated)
 
         # CSV output
-        path = Path("data/raw/metadata/companies.csv")
+        path = RAW_METADATA_FILE
         path.parent.mkdir(parents=True, exist_ok=True)
         df.to_csv(path, index=False)  # index=False means no extra index column [web:98]
         logger.success(f"✅ Metadata saved: {len(df)} companies → {path}")
@@ -146,7 +147,7 @@ def fetch_and_save(symbol: str, start_date: str, data_dir: Path):
     validated_df = pd.DataFrame(validated_rows)
 
     # Save partitioned (symbol/date)
-    symbol_dir = data_dir / "market" / symbol
+    symbol_dir = RAW_MARKET_DIR / symbol
     symbol_dir.mkdir(parents=True, exist_ok=True)
     date_str = datetime.now().strftime("%Y%m%d")
     path = symbol_dir / f"{date_str}.csv"
@@ -157,7 +158,7 @@ def fetch_and_save(symbol: str, start_date: str, data_dir: Path):
 
 if __name__ == "__main__":
     config = load_config()
-    data_dir = Path("data/raw")
+    data_dir = RAW_MARKET_DIR.parent
     for symbol in config['symbols']:
         fetch_and_save(symbol, config['start_date'], data_dir)
     ingest_metadata()  # Always ingest metadata

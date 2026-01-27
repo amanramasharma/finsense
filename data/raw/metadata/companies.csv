@@ -1,11 +1,11 @@
 symbol,sector,industry_group,industry,sub_industry,market_cap,pe_ratio,debt_to_equity,employees,hq_country,founded_year,beta,dividend_yield_pct,gics_code,data_as_of
-AAPL,Technology,Technology Hardware,Consumer Electronics,Consumer Electronics,3670000000000,35.2,1.85,164000,USA,1976,1.25,0.45,252010,2026-01-26 21:36:59.112171
-MSFT,Technology,Software & Services,Software,Infrastructure Software,3420000000000,38.1,0.42,228000,USA,1975,0.92,0.68,451020,2026-01-26 21:36:59.112171
-NVDA,Technology,Semiconductors,Semiconductors,Semiconductor Devices,4530000000000,85.4,0.28,29300,USA,1993,1.68,0.02,453010,2026-01-26 21:36:59.112171
-BLK,Financial Services,Financial Services,Asset Management,Asset Management,168820000000,24.6,0.15,19700,USA,1988,1.32,2.05,403010,2026-01-26 21:36:59.112171
-JPM,Financial Services,Banks,Banks,Diversified Banks,809780000000,13.8,1.45,310000,USA,1799,1.12,2.12,401010,2026-01-26 21:36:59.112171
-HSBC,Financial Services,Banks,Banks,Diversified Banks,2278000000000,8.9,1.92,220000,UK,1865,0.65,6.85,401010,2026-01-26 21:36:59.112171
-LNG,Energy,"Oil, Gas & Consumable Fuels","Oil, Gas & Consumable Fuels",Oil & Gas Midstream,44630000000,12.4,3.25,1500,USA,1996,0.98,0.89,551060,2026-01-26 21:36:59.112171
-SHEL,Energy,"Oil, Gas & Consumable Fuels",Integrated Oil & Gas,Integrated Oil & Gas,199000000000,11.2,0.38,103000,UK,1907,0.55,3.98,101020,2026-01-26 21:36:59.112171
-BP,Energy,"Oil, Gas & Consumable Fuels",Integrated Oil & Gas,Integrated Oil & Gas,64990000000,9.8,0.65,67800,UK,1909,0.72,5.42,101020,2026-01-26 21:36:59.112171
-AZN,Health Care,Pharmaceuticals,Pharmaceuticals,Pharma General,279427000000,28.5,0.92,89400,UK,1999,0.41,1.89,352010,2026-01-26 21:36:59.112171
+AAPL,Technology,Technology Hardware,Consumer Electronics,Consumer Electronics,3670000000000,35.2,1.85,164000,USA,1976,1.25,0.45,252010,2026-01-27 00:48:14.405758
+MSFT,Technology,Software & Services,Software,Infrastructure Software,3420000000000,38.1,0.42,228000,USA,1975,0.92,0.68,451020,2026-01-27 00:48:14.405758
+NVDA,Technology,Semiconductors,Semiconductors,Semiconductor Devices,4530000000000,85.4,0.28,29300,USA,1993,1.68,0.02,453010,2026-01-27 00:48:14.405758
+BLK,Financial Services,Financial Services,Asset Management,Asset Management,168820000000,24.6,0.15,19700,USA,1988,1.32,2.05,403010,2026-01-27 00:48:14.405758
+JPM,Financial Services,Banks,Banks,Diversified Banks,809780000000,13.8,1.45,310000,USA,1799,1.12,2.12,401010,2026-01-27 00:48:14.405758
+HSBC,Financial Services,Banks,Banks,Diversified Banks,2278000000000,8.9,1.92,220000,UK,1865,0.65,6.85,401010,2026-01-27 00:48:14.405758
+LNG,Energy,"Oil, Gas & Consumable Fuels","Oil, Gas & Consumable Fuels",Oil & Gas Midstream,44630000000,12.4,3.25,1500,USA,1996,0.98,0.89,551060,2026-01-27 00:48:14.405758
+SHEL,Energy,"Oil, Gas & Consumable Fuels",Integrated Oil & Gas,Integrated Oil & Gas,199000000000,11.2,0.38,103000,UK,1907,0.55,3.98,101020,2026-01-27 00:48:14.405758
+BP,Energy,"Oil, Gas & Consumable Fuels",Integrated Oil & Gas,Integrated Oil & Gas,64990000000,9.8,0.65,67800,UK,1909,0.72,5.42,101020,2026-01-27 00:48:14.405758
+AZN,Health Care,Pharmaceuticals,Pharmaceuticals,Pharma General,279427000000,28.5,0.92,89400,UK,1999,0.41,1.89,352010,2026-01-27 00:48:14.405758
