@@ -30,8 +30,7 @@ def calculate_market_features():
     df['ret_5d'] = df.groupby('symbol')['close'].pct_change(5)
     
     # Step 3: 20D Volatility (std dev of daily returns)
-    df['vol_20d'] = (df.groupby('symbol')['ret_1d']
-                    .rolling(window=20, min_periods=10)
+    df['vol_20d'] = (df.groupby('symbol')['ret_1d'].rolling(window=20, min_periods=10)
                     .std()
                     .reset_index(0, drop=True))
     
