@@ -199,6 +199,14 @@ It reflects how forecasting systems are built in professional environments, not 
 	- 	GitHub: https://github.com/amanramasharma
 	- 	LinkedIn: https://www.linkedin.com/in/amanramasharma/
 
+ 👨‍💻 Contributor
+
+- Shrivallabha Patil
+- AI Engineer
+- MSc Data Science — University of Surrey
+	- 	GitHub: https://github.com/vallabh-12
+	- 	LinkedIn: https://www.linkedin.com/in/shrivallabha-patil/
+
 ⸻
 
 📌 Disclaimer
